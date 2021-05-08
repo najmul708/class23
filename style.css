@@ -1,0 +1,126 @@
+.header h1 strong{
+    height: 15px;
+    width: 15px;
+    border: 12px solid;
+    border-image-source: url(./img/br.png);
+    border-image-slice: 80;
+
+	padding-top: 5px;
+	margin-left: 70px; 
+}
+.header{
+    background: #000;
+    color: #fff;
+    padding-top: 5px;
+}
+.header ul{
+   
+}
+.header ul li{
+    display: inline-block;
+    position: relative;
+    
+}
+.header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    
+}
+.header ul li a:hover{
+    color: aqua;
+
+}
+/* drop-down */
+.header ul li ul{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+   margin: auto;
+    transition: .5s;
+   
+}
+.header ul li ul li{
+    display: block;
+    top: 0%;
+    left: -10px;
+}
+.header ul li ul li a{
+    display: block;
+    background: #000;
+   margin: auto;
+}
+.header ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+/* start bannar */
+.bannar {
+	background-image: url(https://i.ibb.co/YDQDdns/banner.jpg?fbclid=IwAR0jpquz666Um5flL-mt7Tsn0D4CJtXwi5UzmTdT2qpVfrM1X3iauBW86MQ);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 128px 122px;
+	height: 638px;
+}
+.bannar a{
+    text-decoration: none;
+    display: inline-block;
+    background: #000;
+    padding: 15px;
+    margin-top: 30px;
+    color: #fff;
+    transition: .5s;
+}
+.bannar a:hover{
+    background: rgb(29, 95, 238);
+    color: aqua;
+}
+.body{
+    background: #444444;
+    color: #fff;
+}
+.body p {
+	padding: 155px 50px;
+}
+.body img {
+	margin: 52px 133px;
+	height: 300px;
+    border-radius: 10px;
+}
+/* start footer */
+.footer{
+    background: #458b83;
+    color: #fff;
+}
+.footer h1{
+    padding-top: 20px;
+}
+.footer li{
+    display: inline-block;
+    padding-top: 15px;
+    
+}
+.g2 img{
+    border-radius: 10px;
+}
+.footer li a{
+    display:inline-block;
+    background: #000;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.footer li a:hover{
+    background: rgb(20, 67, 197);
+    color: #000;
+}
+.g2 img{
+  height: 215px;
+margin-top: 50px;
+}
+
